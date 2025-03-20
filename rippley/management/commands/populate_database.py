@@ -1,5 +1,6 @@
 import json
 from django.core.management.base import BaseCommand
+from django.db import models
 
 class Command(BaseCommand):
     help = 'Populates the WomanProfile table with data from a JSON file.'
@@ -19,3 +20,4 @@ class Command(BaseCommand):
                 print(item['name'])
 
         self.stdout.write(self.style.SUCCESS('Successfully populated WomanProfile table.'))
+
