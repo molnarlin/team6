@@ -1,11 +1,15 @@
 # team6
 
 1. Purpose of the project
+Our mission is to celebrate the incredible achievements of women in the tech industry throughout history by creating an engaging online Hall of Fame. Through interactive quizzes and small biographies, we aim to honor these pioneers, showcase their groundbreaking contributions, and inspire the world to learn more about their remarkable journeys. Dive in, have fun, and join us in spreading their stories far and wide!
 2. user stories
 3. Features
+- Multiple-choice quizzes
 4. future features
-5. Typography and color scheme
-6. wireframes
+5. Typography and colour scheme
+Typography and colour scheme follows the 1980s, 1990s Windows design.
+- Design framework: 98.css
+6. Wireframes
 
    ![home page](documentation/wireframes/Home_page.png)
    ![meet the team](/documentation/wireframes/Meet_the_team_page.png)
