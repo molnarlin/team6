@@ -1,0 +1,9 @@
+# virtual envorenment
+venv
+.env
+.venv
+
+# local information files
+.info
+
+
