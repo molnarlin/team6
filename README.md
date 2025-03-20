@@ -6,10 +6,10 @@
 4. future features
 5. Typography and color scheme
 6. wireframes
-   ![home page](documentation/wireframes/Home_page.pdf)
-   ![meet the team](/documentation/wireframes/Meet_the_tem_page.pdf)
-   ![quiz](/documentation/wireframes/Quiz_page.pdf)
-   ![women's profile](/documentation/wireframes/Profile_of_women_page.pdf)
+   - [home page](documentation/wireframes/Home_page.pdf)
+   - [meet the team](/documentation/wireframes/Meet_the_tem_page.pdf)
+   - [quiz](/documentation/wireframes/Quiz_page.pdf)
+   - [women's profile](/documentation/wireframes/Profile_of_women_page.pdf)
 === 1-6 for planning and then write code ===
 8. technology
 9. testing
