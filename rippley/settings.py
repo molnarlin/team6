@@ -31,7 +31,10 @@ SECRET_KEY = 'django-insecure-v2i*(#90v1zh^y01y&+azy78wcx&0btq2b9&!fum)yt=y$7!cq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["rippley-c75929cecc2a.herokuapp.com"]
+ALLOWED_HOSTS = [
+    "rippley-c75929cecc2a.herokuapp.com",
+    "*",
+    ]
 
 
 # Application definition
@@ -47,7 +50,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'category',
     'about',
-    'quiz',    
+    'quiz',
 ]
 
 MIDDLEWARE = [
@@ -96,9 +99,11 @@ DATABASES = {
     }
 }
 
-# CLOUDINARY
-CLOUDINARY_STORAGE = {"CLOUDINARY_URL": os.environ["CLOUDINARY_URL"]}
-
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'your-cloud-name',
+    'API_KEY': 'your-api-key',
+    'API_SECRET': 'your-api-secret',
+}
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 
