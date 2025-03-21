@@ -29,3 +29,24 @@ Typography and colour scheme follows the 1980s, 1990s Windows design.
    
    9.2 via github pages 
 11. credits 
+
+
+## Meet The Team 
+
+Github kakilian
+LinkedIn  katarina-kilian-645242313/
+
+Github https://github.com/molnarlin
+LinkedIn https://www.linkedin.com/in/katalin-molnar-b6a694165/
+
+Dimitri Edel
+Github : https://github.com/dimitri-edel
+LinkedIn : www.linkedin.com/in/dimitri-edel-26a5022a9
+
+Johnny
+Github : https://github.com/JohnnySonTrinh
+LinkedIn www.linkedin.com/in/johnny-trinh-dev/
+
+zalak 
+Github : https://github.com/zalak786
+LinkedIn: linkedin.com/in/zalak-shah-3a1429342
