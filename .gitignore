@@ -6,4 +6,7 @@ venv
 # local information files
 .info
 
+# environment variables
+env.py
+
 
