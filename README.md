@@ -31,7 +31,7 @@ Typography and colour scheme follows the 1980s, 1990s Windows design.
 11. credits 
 
 
-# Meet The Team 
+## Meet The Team 
 
 Github kakilian
 LinkedIn  katarina-kilian-645242313/
