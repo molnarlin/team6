@@ -1,0 +1,16 @@
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #000066;
+  }
+  a {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #ffd700;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+  }
+  

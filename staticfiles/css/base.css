@@ -1,0 +1,21 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background: #fefefe;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: #e0e0e0;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  

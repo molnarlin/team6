@@ -1,0 +1,19 @@
+.about-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .profile-card {
+    width: 250px;
+    background: #fff8dc;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  .profile-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  

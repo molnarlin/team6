@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Women in Tech Hall of Fame{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about/">Profiles</a>
+      <a href="/quizzes/">Quiz</a>
+      <a href="/team/">Our Team</a>
+    </nav>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <p>Built by Team 6 with 💛</p>
+  </footer>
+</body>
+</html>
