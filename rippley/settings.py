@@ -14,6 +14,12 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+# Import environment variables from /.env.py
+try:
+    from env import *
+except ImportError:
+    print("No .env file found. Using default environment variables.")
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -80,11 +86,16 @@ WSGI_APPLICATION = 'rippley.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": os.environ["DB_NAME"],
+        "USER": os.environ["DB_USER"],
+        "PASSWORD": os.environ["DB_PASSWORD"],
+        "HOST": os.environ["DB_HOST"],
+        "PORT": os.environ["DB_PORT"],
     }
 }
+
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': 'your-cloud-name',
     'API_KEY': 'your-api-key',
