@@ -96,11 +96,9 @@ DATABASES = {
     }
 }
 
-CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'your-cloud-name',
-    'API_KEY': 'your-api-key',
-    'API_SECRET': 'your-api-secret',
-}
+# CLOUDINARY
+CLOUDINARY_STORAGE = {"CLOUDINARY_URL": os.environ["CLOUDINARY_URL"]}
+
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 
