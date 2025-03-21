@@ -1,12 +1,7 @@
-# virtual envorenment
-venv
-.env
-.venv
-
-# local information files
-.info
-
-# environment variables
+db.sqlite3
+*.pyc
+__pycache__/
+*.pyc
 env.py
-
-
+.env.py
+venv/
