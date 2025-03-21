@@ -41,8 +41,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'category',
     'about',
-    'quiz',
-    'profiles',
+    'quiz',    
 ]
 
 MIDDLEWARE = [
