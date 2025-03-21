@@ -1,9 +1,14 @@
 {% extends "base.html" %}
+{% load static %}
 
-{% block title %}Home | Women in Tech{% endblock %}
+{% block title %}Home{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
 
 {% block content %}
-  <h2>Welcome to the Hall of Fame 👩‍💻</h2>
+  <h2>Welcome 👩‍💻</h2>
   <p>Explore the amazing women who shaped the tech world.</p>
   <a href="/about/">Start Exploring</a>
 {% endblock %}
