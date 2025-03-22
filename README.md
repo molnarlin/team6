@@ -44,7 +44,8 @@ erDiagram
 - Multiple-choice quizzes 
 ## Future features 
 ## Typography and colour scheme 
-Typography and colour scheme follows the 1980s, 1990s Windows design. 
+Typography and colour scheme follows the 1980s, 1990s Windows design. \
+![Colour palette](documentation/wireframes/Colour_palette.png)
 - Design framework: 98.css 
 ## Wireframes 
 
