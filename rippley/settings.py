@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'category',
     'about',
-    'quiz',    
+    'quiz',  
+    'django_summernote',  
 ]
 
 MIDDLEWARE = [

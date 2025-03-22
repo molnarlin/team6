@@ -4,36 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <title>{% block title %}Women in Tech Hall of Fame{% endblock %}</title>
-  <link rel="stylesheet" href="https://unpkg.com/98.css">
   <link rel="stylesheet" href="{% static 'css/base.css' %}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <header>
-    <div class="tabbed-pane tabs-right">
-      <menu role="tablist">
-        <li role="tab" {% if request.path == '/' %}aria-selected="true"{% endif %}>
-          <a href="/">Home</a>
-        </li>
-        <li role="tab" {% if '/about/' in request.path %}aria-selected="true"{% endif %}>
-          <a href="/about/">Profiles</a>
-        </li>
-        <li role="tab" {% if '/quizzes/' in request.path %}aria-selected="true"{% endif %}>
-          <a href="/quizzes/">Quiz</a>
-        </li>
-        <li role="tab" {% if '/team/' in request.path %}aria-selected="true"{% endif %}>
-          <a href="/team/">Our Team</a>
-        </li>
-      </menu>
+  <header class="retro-header">
+    <div class="header-content">
     </div>
-  </header>  
+  </header>
 
-  <main>
-    {% block content %}{% endblock %}
+  <nav class="retro-menu">
+    <ul>
+      <li><a href="/" class="{% if request.path == '/' %}active{% endif %}">Home</a></li>
+      <li><a href="/about/" class="{% if '/about/' in request.path %}active{% endif %}">About</a></li>
+      <li><a href="/quizzes/" class="{% if '/quizzes/' in request.path %}active{% endif %}">Quiz</a></li>
+    </ul>
+  </nav>
+
+  <main class="retro-main">
+    <section class="main-content">
+      {% block content %}
+      <!-- Content from child templates like home.html will be injected here -->
+      {% endblock %}
+    </section>
   </main>
 
-  <footer>
-    <p>Built by Trailblazers</p>
+  <footer class="retro-footer">
+    <p>&copy; 2025 Women in Tech Hall of Fame. All rights reserved.</p>
   </footer>
 </body>
 </html>
