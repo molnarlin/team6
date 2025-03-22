@@ -1,3 +1,11 @@
+:root {
+  --color-primary: #FFB722;
+  --color-secondary: #BB6E3A;
+  --color-accent: #D4CA9D;
+  --color-dark: #463F44;
+  --color-teal: #63B5AF;
+}
+
 body {
     font-family: 'Verdana', sans-serif;
     background: #fefefe;
