@@ -6,3 +6,9 @@ env.py
 .env.py
 .venv
 venv/
+/about/migrations/__pycache__
+/about/migrations/__pycache__
+/about/migrations/__pycache__
+/about/migrations/__pycache__
+/quiz/migrations/__pycache__
+/quiz/migrations/__pycache__
