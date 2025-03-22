@@ -46,11 +46,16 @@ erDiagram
 ## Features 
 - Multiple-choice quizzes 
 ## Future features 
-## Typography and colour scheme 
+## Design Overview
+### Typography and colour scheme 
 Typography and colour scheme follows the 1980s, 1990s Windows design. \
 ![Colour palette](documentation/wireframes/Colour_palette.png)
 - Design framework: 98.css 
-## Wireframes 
+
+### Favicon
+![Favicon](static\images\favicon.march\favicon.ico)
+- We chose a lightbulb as our favicon to symbolize the moment of inspiration—the spark of an idea. It represents the brilliance and imagination of the historical women in tech who, through their groundbreaking ideas and tireless efforts, helped shape the world of technology as we know it today. Each time their light turned on, it illuminated a path forward—often in times when few believed they could. These sparks of innovation lit up history, powering progress and leaving a legacy that continues to shine brightly. Our lightbulb is a tribute to their brilliance, creativity, and the lasting impact of their ideas.
+### Wireframes 
 
    ![home page](documentation/wireframes/Home_page.png) 
    ![meet the team](/documentation/wireframes/Meet_the_team_page.png) 
