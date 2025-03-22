@@ -1,0 +1,31 @@
+.desktop-background {
+  height: 100vh;
+  background-image: url('/static/images/win98-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.landing-screen {
+  width: 400px;
+  max-width: 90%;
+}
+
+.landing-body {
+  text-align: center;
+  padding: 1rem;
+}
+
+.btn-explore {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  background: #008080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}

@@ -1,0 +1,21 @@
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .member {
+    background: #f0f8ff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  }
+  .member a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  .member a:hover {
+    text-decoration: underline;
+  }
+  

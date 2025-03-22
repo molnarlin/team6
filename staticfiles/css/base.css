@@ -1,0 +1,38 @@
+body {
+  font-family: "Pixelated MS Sans Serif", Arial;
+  background-color: silver;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tabs-right menu {
+  padding-top: 0.2rem;
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.tabs-right [role="tab"] {
+  padding: 0.3rem 0.8rem;
+  background-color: #e0e0e0;
+  border: 2px solid #fff;
+  border-bottom: none;
+}
+
+.tabs-right [role="tab"][aria-selected="true"] {
+  background-color: white;
+  border-color: #fff #808080 white #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}

@@ -1,6 +1,12 @@
-<h1>About Profiles</h1>
-<ul>
+{% extends "base.html" %}
+
+{% block title %}About Profiles{% endblock %}
+{% include "navbar.html" %}
+{% block content %}
+  <h2>Famous Women in Tech</h2>
+  <ul>
     {% for about_profile in about_profiles %}
-    <li><a href="{% url 'about_detail' about_profile.pk %}">{{ about_profile.name }}</a></li>
+      <li><a href="{% url 'about_detail' about_profile.pk %}">{{ about_profile.name }}</a></li>
     {% endfor %}
-</ul>
+  </ul>
+{% endblock %}
