@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Answer Feedback{% endblock %}
+
+{% block content %}
+
+<h1>Question {{ question_number }}</h1>
+<h2>Current Score: {{ current_score }} / {{ question_number }}</h2>
+
+<h3>{{ quiz.question }}</h3>
+
+<p><strong>Your answer:</strong> {{ selected_option_text }}</p>
+
+{% if is_correct %}
+    <p><strong>Correct!</strong> Great job!</p>
+{% else %}
+    <p><strong>Incorrect.</strong> The correct answer was: {{ correct_option_text }}</p>
+{% endif %}
+
+<form method="get" action="{% url 'quiz_question' next_quiz.id %}">
+    <button type="submit">Next Question</button>
+</form>
+{% endblock %}

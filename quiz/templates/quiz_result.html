@@ -1,15 +1,29 @@
 {% extends 'base.html' %}
 
+{% block title %}Quiz Results{% endblock %}
+
 {% block content %}
+
 <h1>Quiz Results</h1>
 
 <div>
     <h2>Your Score: {{ correct_count }} out of {{ total_questions }}</h2>
+    <h3>Percentage: {{ percentage }}%</h3>
+    
+    {% if percentage >= 80 %}
+        <p><strong>Excellent!</strong> You have a great understanding of this topic!</p>
+    {% elif percentage >= 60 %}
+        <p><strong>Good job!</strong> You have a solid understanding of this topic.</p>
+    {% elif percentage >= 40 %}
+        <p><strong>Not bad.</strong> You have some understanding of this topic, but there's room for improvement.</p>
+    {% else %}
+        <p><strong>Keep learning.</strong> You might want to review this topic some more.</p>
+    {% endif %}
     
     {% for result in results %}
     <div>
-        <h3>{{ result.quiz.about.name }} Quiz</h3>
-        <h4>{{ result.quiz.question }}</h4>
+        <h3>Question {{ forloop.counter }}</h3>
+        <h4>{{ result.question }}</h4>
         
         <p><strong>Your answer:</strong> {{ result.selected_text }}</p>
         
