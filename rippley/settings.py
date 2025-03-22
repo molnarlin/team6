@@ -33,6 +33,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["rippley-c75929cecc2a.herokuapp.com", "*"]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.gitpod.io',
+    'https://*.ws-eu118.gitpod.io',
+]
 
 # Application definition
 
