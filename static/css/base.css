@@ -95,7 +95,7 @@ body {
 }
 
 .retro-menu ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
@@ -138,6 +138,33 @@ body {
 
 .retro-menu a:hover::after {
   opacity: 1;
+}
+
+.profile-container {
+  display: flex;             /* Enables flexbox for side-by-side alignment */
+  align-items: center;       /* Vertically aligns items within the container */
+  gap: 20px;                 /* Adds space between text and image */
+}
+
+.profile-text {
+  flex: 1;                   /* Allows the text to take up available space */
+}
+
+.profile-image img {
+  max-width: 150px;          /* Sets a maximum width for the image */
+  height: auto;              /* Maintains the aspect ratio */
+  border-radius: 8px;        /* Optional: adds rounded corners to the image */
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column; /* Stacks items vertically on smaller screens */
+    align-items: flex-start;
+  }
+
+  .profile-image img {
+    max-width: 100%;         /* Makes the image scale properly */
+  }
 }
 
 @keyframes blink {

@@ -1,5 +1,11 @@
-<h1>{{ about_profile.name }}</h1>
-<p>{{ about_profile.contribution }}</p>
-{% if about_profile.image %}
-<img src="{{ about_profile.image.url }}" alt="{{ about_profile.name }}">
-{% endif %}
+<div class="profile-container">
+    <div class="profile-text">
+        <h1>{{ about_profile.name }}</h1>
+        <p class="profile-text">{{ about_profile.contribution }}</p>
+    </div>
+    {% if about_profile.image %}
+        <div class="profile-image">
+            <img src="{{ about_profile.image.url }}" alt="{{ about_profile.name }}">
+        </div>
+    {% endif %}
+</div>
